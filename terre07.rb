@@ -5,6 +5,16 @@ rejeter les nombres et plus d une string/
 
 =end
 
+
+def rien?(n)
+    if n[0] == nil
+        puts "erreur"
+    else
+        puts one_max(n)
+    end
+end
+
+
 def one_max(z)  # compte combien il y a d index et affiche erreur si plus de 1
 
     if z.count > 1
@@ -24,7 +34,7 @@ def one_max(z)  # compte combien il y a d index et affiche erreur si plus de 1
     end
     
     def count_word(w)   # enleve la valeur nil
-        if w != nil
+        if w
             puts w.length
         else 
             puts "erreur"
@@ -32,4 +42,4 @@ def one_max(z)  # compte combien il y a d index et affiche erreur si plus de 1
         end
     
     
-one_max(ARGV)
+rien?(ARGV)

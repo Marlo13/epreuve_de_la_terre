@@ -7,13 +7,15 @@ def division(n, a)
     puts "resultat: #{n.to_i / a.to_i}"
     
     puts "reste: #{n.to_i % a.to_i}"
-   else n.to_i < a.to_i
+   
+else n.to_i < a.to_i
+    
     puts "erreur"
 end
-
 end
 
-if a.to_i === 0 
+i
+f a.to_i === 0 
     puts "erreur"
 else
  division(ARGV[0], ARGV[1])

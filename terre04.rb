@@ -1,5 +1,15 @@
 
+def rien?(n)
+    if n == nil
+        puts "Tu ne me la mettra pas à l'envers."
+    else
+        puts numeric?(n)
+    end
+end
+
+
 def numeric?(n)
+    
     if  n.match?(/\A-?\d+\Z/)
         pair(n)
     else puts "Tu ne me la mettra pas à l'envers."
@@ -13,4 +23,4 @@ def pair(n)
     end
 end
 
-numeric?(ARGV[0]) 
+rien?(ARGV[0])

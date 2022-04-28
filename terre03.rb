@@ -3,7 +3,7 @@
 #dire d afficher l alphabet a partir de cette lettre "variable"
 #afficher
 
-a = gets.chomp
+a = ARGV[0]
 
 
 if a == "a"

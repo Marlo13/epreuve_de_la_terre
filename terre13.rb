@@ -15,7 +15,7 @@ def numeric(a, b, c)    # enleve qui est autre que chiffre
 end
 
 
-
+ 
 def leMilieux(a, b, c)
     if (a.to_i) > (b.to_i) && (c.to_i) > (a.to_i) || (a.to_i) > (c.to_i) && (b.to_i) > (a.to_i)
         puts (a.to_i)

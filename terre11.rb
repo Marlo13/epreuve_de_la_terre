@@ -6,5 +6,5 @@ def douzeChange(n)
 end
 
 
-
+ 
 douzeChange(ARGV[0])

@@ -1,4 +1,4 @@
-# cree quelque chose qui dit lla variable donner est un nombre premier
+# cree quelque chose qui dit la variable donner est un nombre premier
 
 def rien?(n) #verifie si nul
     if n != nil

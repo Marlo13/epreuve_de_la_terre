@@ -6,5 +6,5 @@ def quatreChange(n)
     end
     
     
-    
+     
     quatreChange(ARGV[0])

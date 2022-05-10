@@ -1,5 +1,5 @@
 
-def number(arr)
+def number(arr)     # regarde si il y a que des nombre \d veut dire 0-9
   if arr.all?(/\d/)
     puts growing_Number(arr)
   else

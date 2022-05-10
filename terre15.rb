@@ -1,1 +1,1 @@
-puts "J'ai terminé l'épreuve de la Terre et c'était dur et instructif"
+puts "J'ai terminé l'épreuve de la Terre et c'était dur et instructif" 

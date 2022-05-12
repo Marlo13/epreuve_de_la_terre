@@ -14,8 +14,7 @@ else n.to_i < a.to_i
 end
 end
 
-i
-f a.to_i === 0 
+if a.to_i === 0 
     puts "erreur"
 else
  division(ARGV[0], ARGV[1])
